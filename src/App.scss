@@ -1,0 +1,102 @@
+.outerContainer{
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 20px;   
+  .innerContainer {
+     ul{
+          width: 100%;
+          clear: both; 
+          li{
+              width: 30%;
+              padding: 4px;
+              display: inline-block;
+              border-radius: 5px;
+              border: 1px solid gray;    
+              margin: 7px;  
+              height: 100px;
+              overflow: auto;  
+              div{
+                  color: black;
+                  font-size: 16px;    
+              }
+              & div:last-child {
+                padding-top: 10px;           
+                input{                  
+                  margin: 2px;
+                }
+              }
+            .innerBtn {
+                text-align: center;
+                background-color: black;
+                font-size: 11px;
+                color: #ffffff;   
+                border-radius: 10px;
+                width: 74px;
+                height: 30px;
+                border: none;
+                cursor: pointer;  
+                margin-right:5px; 
+                &:hover {
+                    background-color: gray;
+                }   
+            }  
+          }
+      } 
+  }  
+  .addBtnDiv{
+      text-align: right;
+      float: right;
+      margin-right: 40px;
+      clear: both;
+      width: 100%;
+  }  
+}
+
+.formContainer{
+  width: 50%;
+  margin: 0 auto;
+  .formDiv{
+      padding-bottom: 10px;
+      .label{    
+          font-size: 14px;   
+          padding: 5px;
+      }
+      input{
+          width: 100%;
+          margin: 0 auto;
+          font-size: 12px;
+          height: 30px;   
+          border-radius: 5px;
+          border: 1px solid;
+          padding-left: 4px; 
+      }
+      select{
+          width: 100%;
+          margin: 0 auto;
+          font-size: 12px;
+          height: 30px;   
+          border-radius: 5px;
+          border: 1px solid;
+          padding-left: 4px;
+      }
+    }       
+  .innerBtn {
+      text-align: center;
+      background-color: black;
+      font-size: 11px;
+      color: #ffffff;   
+      border-radius: 10px;
+      width: 74px;
+      height: 30px;
+      border: none;
+      cursor: pointer;
+      margin-right:5px;
+      &:hover {
+          background-color: gray;
+      }   
+  }  
+}
+
+
+
